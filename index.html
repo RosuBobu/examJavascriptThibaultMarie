@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>AurelienClicker</title>
+</head>
+<body>
+<div class="container">
+    <h1>Clicker Game</h1>
+
+    <div class="container d-flex flex-column">
+    <div class="wrapper">
+        <form method="POST" id="form">
+            <label for="pseudo">TON PSEUDO</label>
+            <input type="text" name="pseudo" class="pseudo"><br>
+            <button type="button" class="btn btn-success okpseudo">OK !</button><br>
+        </form>
+    </div>
+</div>
+
+<h1 class="player"></h1>
+
+<div class="container-fluid">
+    <button class="rgb btn btn-xl btn-primary start">START !</button>
+</div>
+
+<div>
+    <h1 class="counted"></h1>
+</div>
+
+<button class="btn btn-primary again">AGAIN ?</button>
+<button class="btn btn-primary save">SAVE !</button>
+<button class="btn btn-primary scores">SCORES</button>
+
+<hr>
+
+<div class="displayscores">
+    <h1>PANTHEON</h1>
+    <div class="result-list">
+        <ul class="result">
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
